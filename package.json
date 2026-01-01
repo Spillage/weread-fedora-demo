@@ -1,0 +1,14 @@
+{
+  "name": "weread-fedora-demo",
+  "version": "0.1.0",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "pack:dir": "npx electron-builder --dir",
+    "pack": "npx electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0"
+  }
+}
